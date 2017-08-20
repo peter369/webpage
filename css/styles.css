@@ -1,8 +1,27 @@
-    body {
+body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: url(https://source.unsplash.com/zc4MEZMdXhc) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }    
+  
+    /* body {
         background-image: url(https://source.unsplash.com/zc4MEZMdXhc);
         background-size: cover;
         background-position: top;
-    }
+        background-attachment: fixed; 
+    } */
+
+    
     
     html {
         height: 100%;
@@ -21,7 +40,6 @@
     img {
         margin-top: 20px;
         border-radius: 20px;
-        /*margin-bottom: 20px;
-    */
+        margin-bottom: 20px;
         height: 50%;
     }
