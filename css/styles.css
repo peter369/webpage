@@ -12,34 +12,33 @@ body:before {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }    
-  
-    /* body {
+}
+
+
+/* body {
         background-image: url(https://source.unsplash.com/zc4MEZMdXhc);
         background-size: cover;
         background-position: top;
         background-attachment: fixed; 
     } */
 
-    
-    
-    html {
-        height: 100%;
-    }
-    
-    .backtrans {
-        background-color: RGBA(209, 209, 209, 0.27);
-        border-radius: 20px;
-        padding: 10px;
-    }
-    
-    h1 {
-        color: white;
-    }
-    
-    img {
-        margin-top: 20px;
-        border-radius: 20px;
-        margin-bottom: 20px;
-        height: 50%;
-    }
+html {
+    height: 100%;
+}
+
+.backtrans {
+    background-color: RGBA(209, 209, 209, 0.27);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+img {
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    height: 50%;
+}
